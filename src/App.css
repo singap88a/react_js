@@ -578,13 +578,15 @@ header .navpar .icon_logo{
      position: relative;
     }
     .home_img .container .cols .col .img_cols .tow_col .imges .img{
-     
+      background-image: url(/public/img/home_3.jpg);
+
       background-size: cover;
       background-position: center;
     }
     
     .home_img .container .cols .col .img_cols .tow_col .img_2 .img{
-    
+      background-image: url(/public/img/home_2.jpg);
+
       background-position: center;
       background-size: cover;
     }
@@ -667,17 +669,18 @@ header .navpar .icon_logo{
       border-radius: 20px;
     }
 
-     .home_img .container .cols .col swiper-container {
+     .home_img .container .cols .col .mySwiper {
       height: 530px;
        max-width: 100%;  
     }
 
-   .home_img .container .cols .col swiper-slide img {
+   .home_img .container .cols .col .mySwiper img {
      display: block;
      width: 100%;
      height: 530px;
      object-fit: cover;
      border-radius: 20px;
+     background-size: cover;
     }
 
  
