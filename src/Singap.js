@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
+import './App.css';
 // import './styles.css';
 
 // import required modules
@@ -1092,8 +1092,7 @@ export default function Singap(){
         </SwiperSlide>
       </Swiper>
                 </div>
-                <div className="swiper-button-next btn_Swip" />
-                <div className="swiper-button-prev btn_Swip" />
+           
               </div>
             </div>
           </div>

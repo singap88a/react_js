@@ -12,7 +12,12 @@
  /* ////////////////////// */
 
  
-
+ 
+ .swiper-button-next:after, .swiper-button-prev:after{
+  color: rgb(228, 228, 228);
+ }
+ 
+ 
 
 
    
@@ -317,7 +322,7 @@ header .navpar .icon_logo{
     
     li:hover ul#submenu{
       opacity: 1;
-      top: 150px;
+      top: 200px;
       visibility: visible;
      
     }
@@ -755,22 +760,18 @@ box-shadow: 4px 2px 35px  rgba(0, 0, 0, 0.084);
    cursor: pointer;
   
  }
- .banner .container .mySwiper .btn_Swip_banner{
-  display: block;
-  align-items: center;
-  color: #000000;
-  transition: 0.3s ease-in-out;
- 
- }
- .banner .container .mySwiper .btn_Swip_banner:hover{
-  transform: scale(1.1);
-  color: #666464;
- }
 
- .banner .container .mySwiper .btn_Swip_banner::after{
-  font-size: 35px;
+ .banner .slide .container .mySwiper .swiper-button-next::after,
+ .banner .slide .container .mySwiper .swiper-button-prev::after{
+  font-size: 32px;
+  color: #292929;
+  transition: 0.3s ease-in-out;
  }
- 
+ .banner .slide .container .mySwiper .swiper-button-next:hover,
+ .banner .slide .container .mySwiper .swiper-button-prev:hover{
+  transform: scale(1.1);
+  color: #000000;
+ }
 
 /* /////////////BANNER END/////////////// */
 
@@ -1009,7 +1010,7 @@ margin: 8px 0 15px 0;
   background-color: #ffffff;
   padding: 20px 15px;
    
-  overflow: hidden;
+ overflow: hidden;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.3);
    
   border-radius: 5px;
@@ -1229,26 +1230,31 @@ font-size: 20px;
    position: relative;
 }
 
-.slide .container .mySwiper .btn_Swip{
+
+
+.slide .container .mySwiper .products  .swiper-button-next,
+.slide .container .mySwiper .products  .swiper-button-prev {
   color: #ffffff; 
    position: absolute;
-   top: 66px;
+   top: 50%;
    right: 0px;
    background-color: #f33419;
    font-weight: bold;
-   padding: 0 18px;
+    
    border-radius: 5px;
   transition: 0.2s ease-in-out;
-   
+  overflow: visible
  }
- .slide .container .mySwiper .btn_Swip:hover{
+  .slide .container .mySwiper .products .swiper-button-next:hover,
+ .slide .container .mySwiper .products  .swiper-button-prev:hover{
     background-color: #a91400;
  }
- .slide .container .mySwiper .btn_Swip::after{
-  font-size: 25px;
+ .slide .container .mySwiper .products .swiper-button-next::after,
+ .slide .container .mySwiper .products  .swiper-button-prev::after{
+  font-size: 22px;
  }
- .slide .container .mySwiper .btn_Swip.swiper-button-next{
- right: calc(100% - 96%);
+ .slide .container .mySwiper .products .swiper-button-next{
+ right: calc(100% - 2.7%);
  
  
  }
