@@ -52,6 +52,9 @@ export default function Singap(){
           </title>
         </head>
         <body>
+
+
+
           <header>
             <div className="rigth">
               <div className="cols">
@@ -151,9 +154,9 @@ export default function Singap(){
                   />
                 </div>
                 <div className="logo">
-                  <img
+                  <img 
                     alt=""
-                    src="img/logo.webp"
+                    src="img/logo_v.png"
                   />
                 </div>
                 <div className="search">
@@ -1583,7 +1586,7 @@ export default function Singap(){
 
 
 
-
+       
 
 
 

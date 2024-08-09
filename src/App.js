@@ -1,13 +1,12 @@
-import './index.css';
+
 import './App.css';
 import Singap from './Singap';
- function App() {
+  function App() {
   return (
   
     <div className="App">
         <Singap/>
- 
-    </div>
+     </div>
   );
 }
 
